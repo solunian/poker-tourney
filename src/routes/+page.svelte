@@ -2,7 +2,7 @@
   let inputbox = $state("");
   let messages: string[] = $state([]);
 
-  let ws = new WebSocket("ws://localhost:8000/ws/");
+  let ws = new WebSocket("ws://localhost:8000/game/ws/");
 
   // ws.onopen = () => {
   //   console.log("WebSocket open");
